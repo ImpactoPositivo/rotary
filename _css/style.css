@@ -54,7 +54,7 @@ main {
     flex-direction: column;
 }
 
-bg2 {
+.bg2 {
     flex-grow: 1;
 }    /*tentativa de ficar o rodape*/
 
@@ -98,6 +98,11 @@ section h1 {
     padding-top: 5px; 
 }
 
+.bg2 h1 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
 section h2 {
     font-size: 1em;
     font-weight: bold;
@@ -109,17 +114,55 @@ section h3 {
     font-size: .9em;
     font-weight: normal;
     text-align: justify;
-    text-indent: 20px;
+}
+
+div#altura-linha p {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 section p {
     text-align: justify;
-    font-size: 1em;
-    padding-top: 15px; 
+    font-size: .9em;
+    padding-left: 10px;
+}
+
+.bg2 p {
+    line-height: 2em;
 }
 
 div#espaco {
     margin-left: 50px;
+}
+
+.esquerda {
+    padding-top: 10px;
+}
+
+.esquerda p {
+    text-align: left;
+    background-color: #00a7e442;
+}
+
+.direita {
+    padding-bottom: 10px;
+}
+
+.direita p {
+    text-align: right;
+    padding-right: 10px;
+    background-color: #ffaf3e59;
+}
+
+table {
+    width: 350px;
+    border-collapse: collapse;
+    margin: auto;
+    padding-top: 15px;
+}
+
+table td {
+    font-size: 1em;
 }
 
 section ul {
