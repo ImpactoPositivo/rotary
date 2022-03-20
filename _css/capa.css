@@ -37,7 +37,7 @@
 }
 
 body {
-    /* height: 100vh; */
+    height: 100vh;
     background-color: var(cor4);
 }
 
@@ -48,19 +48,9 @@ main {
     margin: auto;     
 }
 
-.corpo {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-/* .bg2 {
-    flex-grow: 1;
-}    tentativa de ficar o rodape*/
-
 header figure {
-    background-color: rgba(230, 230, 230, 0.678);
-    border: 1px solid var(cor1);
+    background-color: white;
+    border: 1px solid #00a8e4;
 }
 
 header img#logo {
@@ -70,7 +60,8 @@ header img#logo {
 
 header div#cabecario {
     background-color: #00a8e4;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 20px;
     color: var(cor3);
 }
 
@@ -84,17 +75,29 @@ header h2 {
     text-align: center;
 }
 
-
 section {
-    background-color: white;
-    border: 1px solid var(--cor1);
-    color: #3b3535;
+    background-color: #00a8e4;
+}
+
+center img {
+    width: 35%;
+}
+
+div#d4510 {
+    padding: 10px;
+}
+
+div#clube {
+    padding: 30px;
+}
+
+div#ri {
+    padding: 10px;
 }
 
 section h1 {
     font-size: 1em;
-    text-align: center; 
-    padding-top: 5px; 
+    text-align: center;    
 }
 
 section h2 {
@@ -107,27 +110,61 @@ section h3 {
     text-align: center;
 }
 
-section p {
+section > p {
+    font-size: .7em;
+    text-align: center;    
+}
+
+div#clique {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    }
+
+div#clique a {
+    background-color: #ffaf3e;
+    color: #3155a4;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.219);
+}
+
+div#clique a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+section#conteudo {
+    background-color: white;
+    border: 1px solid var(--cor1);
+    color: #3b3535;
+}
+
+section#conteudo h1 {
+    padding: 10px; 
+}
+
+section#conteudo p {
     text-align: center;
     font-size: 1em;
     padding: 15px; 
 }
 
-section ul {
+section#conteudo ul {
     color: #3b3535;
     font-size: .8em;
     padding-left: 10px;
-    padding-bottom: 10px;
     list-style: inside;
 }
 
-section a {
+section#conteudo a {
     color: #3b3535;
     font-weight: bold;
     text-decoration: none;
 }
 
-section a:hover {
+section#conteudo a:hover {
     color: var(--cor1);
     font-weight: bold;
     text-decoration: underline;
@@ -135,9 +172,10 @@ section a:hover {
 
 footer {
     background-color: #2172c3;
-    font-family: var(fonte4);
+    font-family: var(--fonte4);
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 footer h1 {
