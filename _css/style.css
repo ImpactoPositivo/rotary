@@ -124,11 +124,16 @@ div#altura-linha p {
 section p {
     text-align: justify;
     font-size: .9em;
-    padding-left: 10px;
+    padding: 0px 10px;
 }
 
 .bg2 p {
     line-height: 2em;
+}
+
+div#mensagem p {
+    font-size: 0.8em;
+    line-height: 1.8em;
 }
 
 div#espaco {
@@ -183,6 +188,29 @@ section a:hover {
     color: var(--cor1);
     font-weight: bold;
     text-decoration: underline;
+}
+
+img#foto {
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+div#nome {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+div#nome h1 {
+    font-size: 0.9em;
+}
+
+div#nome h2 {
+    font-size: 0.9em;
+}
+
+div#nome p {
+    font-size: 0.7em;
 }
 
 footer {
