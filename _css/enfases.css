@@ -215,7 +215,7 @@ article#origem  p {
 }
 
 .bg2 table th {
-    border: 1px solid black;
+    border: 1px solid #3155a4;
     background-color: #2172c3;
     color: white;
     font-size: 0.8em;
@@ -223,7 +223,7 @@ article#origem  p {
 }
 
 .bg2 table td {
-    border: 1px solid black;
+    border: 1px solid #3155a4;
     color: #3155a4;
     font-size: 0.8em;
     text-align: left;
