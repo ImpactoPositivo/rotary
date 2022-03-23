@@ -23,6 +23,7 @@
     --cor2: #2172c3;
     --cor3: #3155a4;
     --cor4: #ffaf3e;
+    --cor5: #d51668;
 
     --fonte1: 'Frutiger Light Condensed', cursive;
     --fonte2: 'Frutiger Bold', cursive;
@@ -98,22 +99,14 @@ section h1 {
     padding-top: 5px; 
 }
 
-.bg2 h1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-section h2 {
+.bg2 h2 {
     font-size: 1em;
     font-weight: bold;
     text-align: justify;
     padding-top: 10px;
-}
-
-.bg2 h2 {
     color: #ffaf3e;
-    padding-top: 5px;
-
+    padding-left: 10px;
+    margin-top: 10px;
 }
 
 section h3 {
@@ -122,74 +115,11 @@ section h3 {
     text-align: justify;
 }
 
-div#altura-linha p {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-section p {
+.bg2 p {
     text-align: justify;
     font-size: .9em;
     padding: 0px 10px;
-}
-
-.bg2 p {
-    line-height: 2em;
-}
-
-div#mensagem p {
-    font-size: 0.8em;
     line-height: 1.8em;
-}
-
-div#espaco {
-    margin-left: 50px;
-}
-
-.esquerda {
-    padding-top: 10px;
-}
-
-.esquerda p {
-    text-align: left;
-    background-color: #00a7e442;
-}
-
-.direita {
-    padding-bottom: 10px;
-}
-
-.direita p {
-    text-align: right;
-    padding-right: 10px;
-    background-color: #ffaf3e59;
-}
-
-table {
-    width: 350px;
-    border-collapse: collapse;
-    margin: auto;
-    padding-top: 15px;
-}
-
-table td {
-    font-size: 1em;
-}
-
-section ul {
-    color: #3b3535;
-    font-size: .8em;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    list-style: inside;
-}
-
-.bg2 ul {
-    padding-bottom: 0px;
-}
-
-.bg2 li {
-    line-height: 1.5em;
 }
 
 section a {
@@ -205,26 +135,72 @@ section a:hover {
 }
 
 img#foto {
-    width: 25%;
+    width: 40%;
     padding: 10px;
     float: left;
 }
 
-div#nome {
-    padding-top: 40px;
-    padding-bottom: 40px;
+img#acao {
+    width: 370px;
+    padding: 10px;
 }
 
-div#nome h1 {
-    font-size: 0.9em;
+div#enfase p {
+    font-size: .7em;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-top: 5px;
 }
 
-div#nome h2 {
-    font-size: 0.9em;
+article {
+    background-color: rgba(223, 222, 222, 0.5);
+    border: 1px solid rgba(223, 222, 222, 0.5);
+    margin: 5px;
+    border-radius: 10px;
 }
 
-div#nome p {
-    font-size: 0.7em;
+article h2 {
+    font-size: 1em;
+    text-align: center;
+    color: #3b3535b0;
+    padding-top: 5px;
+}
+
+article h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #d51668;
+    text-align: center;
+    padding: 10px;
+}
+
+article p {
+    font-size: .9em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+article#origem {
+    background-color: white;
+}
+
+article#origem  h1 {
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+}
+
+article#origem  h2 {
+    font-size: 1em;
+    color: var(--cor4);
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+
+article#origem  p {
+    font-size: .9em;
+    text-align: justify;
+    padding: 0px 10px 10px 10px;
 }
 
 footer {
