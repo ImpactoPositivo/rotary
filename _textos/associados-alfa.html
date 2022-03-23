@@ -7,24 +7,18 @@
     <title>Associados</title>
     <link rel="stylesheet" href="../_css/popup.css">
     <link rel="shortcut icon" href="../_imagens/favicon.ico" type="image/x-icon">
-    <!-- <script>
-        const button = document.querySelector('button')
+    <script>
+        function showModal() {
+            var element = document.getElementById("modal");
+            element.classList.add("show-modal");
+        }
+        function hideModal() {
+            var element = document.getElementById("modal");
+            element.classList.remove("show-modal");
+        }
 
-        const popup = document.querySelector('.popup-wrapper')
+    </script>
 
-        const closeButton = document.querySelector('popup-close')
-
-        button.addEventListener('click', () => {popup.style.display = 'block'
-        })
-
-        close.Button.addEventListener('Click', () => {
-            popup.style.display = 'none'
-        })
-
-        popup.addEventListener('click', () => {
-            popup.style.display = 'none'
-        })
-    </script> -->
 </head>
 <body class="corpo">
     <main>
@@ -48,24 +42,22 @@
             <button>&#10148 Eudes Soares de Sá Nóbrega</button>
             <button>&#10148 Fábio Donizete de Mendonça</button>
             <button>&#10148 Fernando de Aguiar Zulian</button>
-            <button>&#10148 Francisco Tadeu Ferro</button>
-            <div class="popup-wrapper">
-                <div class="popup">
-                    <div class="popup-close">FECHAR</div>
-                        <div class="popup-content">
-                            <h2><strong>FRANCISCO TADEU FERRO</strong></h2>
-                            <p><strong>Posse</strong>: 17/11/97 <strong>nºRI :</strong> 3310175</p>
-                            <p><strong>Classificação:</strong> Tecnologia - Desenvolvimento de softwares.</p>
-                            <p><strong>Empresa:</strong> Impacto Positivo Com. Serv. Informática Ltda.</p>
-                            <p><strong>End. Comercial:</strong> Avenida Nações Unidas, 17-17, Conjunto 307, Bauru SP</p>
-                            <p><strong>Fone Com.:</strong> (14) 2109-3400</p>
-                            <p><strong>End Residencial:</strong> Rua Rosa Palomari Bratfisch, 2-152, Residencial Villaggio II.</p>
-                            <p><strong>Fone Celular:</strong> (14) 98124-0000.</p>
-                            <p><strong>Aniversário:</strong> 27/01</p>
-                            <p><strong>Esposa:</strong> Maria Amélia Moura Pini Ferro</p>
-                            <p><strong>Aniversário:</strong> 08/10</p>
-                            <p><strong>E-mail:</strong> <a href="mailto:impacto.bauru@gmail.com">impacto.bauru@gmail.com</a></p>
-                        </div>                    
+            <button onclick="showModal()">&#10148 Francisco Tadeu Ferro</button>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <span onclick="hideModal()">FECHAR</span>
+                    <h2><strong>FRANCISCO TADEU FERRO</strong></h2>
+                    <p><strong>Posse</strong>: 17/11/97 <strong>nºRI :</strong> 3310175</p>
+                    <p><strong>Classificação:</strong> Tecnologia - Desenvolvimento de softwares.</p>
+                    <p><strong>Empresa:</strong> Impacto Positivo Com. Serv. Informática Ltda.</p>
+                    <p><strong>End. Comercial:</strong> Avenida Nações Unidas, 17-17, Conjunto 307, Bauru SP</p>
+                    <p><strong>Fone Com.:</strong> (14) 2109-3400</p>
+                    <p><strong>End Residencial:</strong> Rua Rosa Palomari Bratfisch, 2-152, Residencial Villaggio II.</p>
+                    <p><strong>Fone Celular:</strong> (14) 98124-0000.</p>
+                    <p><strong>Aniversário:</strong> 27/01</p>
+                    <p><strong>Esposa:</strong> Maria Amélia Moura Pini Ferro</p>
+                    <p><strong>Aniversário:</strong> 08/10</p>
+                    <p><strong>E-mail:</strong> <a href="mailto:impacto.bauru@gmail.com">impacto.bauru@gmail.com</a></p>
                 </div>
             </div>
             <button>&#10148 Gesner Abdala Aude</button>
