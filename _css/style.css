@@ -38,7 +38,7 @@
 
 body {
     /* height: 100vh; */
-    background-color: var(cor4);
+    background-color: var(--cor4);
 }
 
 main {
@@ -59,7 +59,7 @@ main {
 }    /*tentativa de ficar o rodape*/
 
 header figure {
-    background-color: rgba(230, 230, 230, 0.678);
+    background-color: rgba(230, 230, 230, 0.3);
     border: 1px solid var(cor1);
 }
 
