@@ -142,10 +142,9 @@ img#foto {
 }
 
 img#acao {
-    width: 375px;
+    width: 95%;
     margin: auto;
-    padding-left: 5px;
-    padding-top: 10px;
+    padding: 10px 9px;
 }
 
 div#enfase p {
@@ -207,7 +206,7 @@ article#origem  p {
 }
 
 .bg2 table {
-    width: 360px;
+    width: 90%;
     margin: auto;
     border-collapse: collapse;
     padding: 10px;
