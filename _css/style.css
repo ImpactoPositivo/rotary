@@ -56,7 +56,7 @@ main {
 
 .bg2 {
     flex-grow: 1;
-}    /*tentativa de ficar o rodape*/
+}    
 
 header figure {
     background-color: rgba(230, 230, 230, 0.3);
@@ -182,6 +182,7 @@ section ul {
     padding-left: 20px;
     padding-bottom: 10px;
     list-style: inside;
+
 }
 
 .bg2 ul {
