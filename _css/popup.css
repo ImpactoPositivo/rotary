@@ -122,7 +122,8 @@ table#socios td {
 }
 
 table#socios td {
-    font-size: .8em;
+    /*font-size: .8em; */
+    font-size: 1.2vw;
     padding-left: 5px;
     padding-right: 5px;
 }
