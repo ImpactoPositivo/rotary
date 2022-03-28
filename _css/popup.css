@@ -103,7 +103,7 @@ section h1 {
 }
 
 table#socios {
-    width: 90%;
+    width: 95%;
     border-collapse: collapse;
     margin: auto;
     padding-top: 15px;
@@ -122,8 +122,7 @@ table#socios td {
 }
 
 table#socios td {
-    /*font-size: .8em; */
-    font-size: 3vw;
+    font-size: .8em;
     padding-left: 5px;
     padding-right: 5px;
 }
