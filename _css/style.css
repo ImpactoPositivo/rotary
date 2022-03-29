@@ -137,6 +137,12 @@ section p {
     line-height: 2em;
 }
 
+.bg2 img#acao {
+    width: 95%;
+    margin: auto;
+    padding: 10px 9px;
+}
+
 div#mensagem p {
     font-size: 0.8em;
     line-height: 1.8em;
