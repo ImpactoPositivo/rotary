@@ -59,9 +59,13 @@ main {
     flex-grow: 1;
 }    /*tentativa de ficar o rodape*/
 
+header {
+    border-top: 1px solid var(--cor2);
+    border-left: 1px solid var(--cor2);
+    border-right: 1px solid var(--cor2);
+}
 header figure {
     background-color: rgba(230, 230, 230, 0.301);
-    border: 1px solid var(--cor1);
 }
 
 header img#logo {
@@ -83,11 +87,36 @@ header h1 {
 header h2 {
     font-size: .8em;
     text-align: center;
+    padding: 10px;
+}
+
+header nav {
+    background-color: lightgray;
+    vertical-align: middle;
+    padding: 2px 0px 4px 0px;
+}
+
+header nav a {
+    background-color: var(--cor1);
+    padding: 5px 8px;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: white;
+    border: 1px solid lightgray;
+    border-top-right-radius: 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: var(--cor4);
+    color: var(--cor3);
+    text-decoration: underline;  
 }
 
 section {
     background-color: white;
-    border: 1px solid var(--cor1);
+    border-left: 1px solid var(--cor1);
+    border-right: 1px solid var(--cor1);
     color: #3b3535;
     padding: 5px;
 }
@@ -96,14 +125,14 @@ section {
     font-size: 1em;
     text-align: center; 
     padding-top: 5px;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
 }
 
 .bg2 h2 {
     font-size: 1em;
     font-weight: bold;
     text-align: justify;
-    padding-top: 10px;
+    padding-top: 5px;
     color: #ffaf3e;
     padding-left: 10px;
     margin-top: 10px;
