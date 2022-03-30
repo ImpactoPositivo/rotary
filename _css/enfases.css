@@ -106,11 +106,11 @@ header nav {
 
 header nav a {
     background-color: var(--cor1);
-    padding: 5px 8px;
+    padding: 5px 4px;
     font-size: 0.6em;
     font-weight: bold;
     color: white;
-    border: 1px solid lightgray;
+    border: 1px solid var(--cor1);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     text-decoration: none;
@@ -243,7 +243,7 @@ article#origem  p {
 }
 
 .bg2 table {
-    width: 90%;
+    width: 95%;
     margin: auto;
     border-collapse: collapse;
     padding: 10px;
