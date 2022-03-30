@@ -130,9 +130,13 @@ table#socios td {
 section ul {
     color: #3b3535;
     font-size: .8em;
-    padding-left: 10px;
+    padding-left: 15px;
     padding-bottom: 10px;
     list-style: inside;
+}
+
+section li {
+    list-style: none;
 }
 
 section a {
