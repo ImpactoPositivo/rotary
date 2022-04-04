@@ -137,10 +137,18 @@ section p {
     line-height: 2em;
 }
 
-.bg2 img#acao {
-    width: 95%;
-    margin: auto;
-    padding: 10px 9px;
+div#acao {
+    display: block;
+    padding: 10px;
+}
+
+div#acao img {
+    width: 100%;
+}
+
+div#acao figcaption {
+    color: var(--cor3);
+    font-size: .8em;
 }
 
 div#mensagem p {
@@ -217,10 +225,20 @@ img#foto {
     float: left;
 }
 
-img#foto1 {
-    width: 40%;
-    padding: 10px;
+ div#foto1 {
+    display: block;
+    border: 1px solid white;
     float: left;
+    padding: 10px;
+}
+
+div#foto1 img {
+    width: 100%;
+}
+
+div#foto1 figcaption {
+    color: var(--cor3);
+    font-size: .8em;
 }
 
 div#nome {
