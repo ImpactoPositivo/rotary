@@ -217,6 +217,12 @@ img#foto {
     float: left;
 }
 
+img#foto1 {
+    width: 40%;
+    padding: 10px;
+    float: left;
+}
+
 div#nome {
     padding-top: 40px;
     padding-bottom: 40px;
