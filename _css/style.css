@@ -113,13 +113,17 @@ section h2 {
 .bg2 h2 {
     color: #ffaf3e;
     padding-top: 5px;
-
+    padding-left: 10px;
 }
 
 section h3 {
     font-size: .9em;
     font-weight: normal;
     text-align: justify;
+}
+
+.bg2 h3 {
+    padding-left: 10px;
 }
 
 div#altura-linha p {
