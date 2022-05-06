@@ -123,6 +123,7 @@ section h3 {
 }
 
 .bg2 h3 {
+    font-size: 1em;
     padding-left: 10px;
 }
 
@@ -138,6 +139,7 @@ section p {
 }
 
 .bg2 p {
+    font-size: 1em;
     line-height: 2em;
 }
 
@@ -205,6 +207,7 @@ section ul {
 
 .bg2 ul {
     padding-bottom: 0px;
+    font-size: 0.9em;
 }
 
 .bg2 li {
