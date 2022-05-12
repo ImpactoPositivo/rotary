@@ -132,6 +132,11 @@ div#altura-linha p {
     padding-bottom: 15px;
 }
 
+.bg2 h4 {
+    font-size: 1em;
+    padding: 10px 10px 0px 10px;
+}
+
 section p {
     text-align: justify;
     font-size: .9em;
@@ -262,6 +267,10 @@ div#nome h2 {
 }
 
 div#nome p {
+    font-size: 0.7em;
+}
+
+article#rodape {
     font-size: 0.7em;
 }
 
