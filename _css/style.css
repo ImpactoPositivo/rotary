@@ -141,6 +141,7 @@ section p {
     text-align: justify;
     font-size: .9em;
     padding: 0px 10px;
+    margin-bottom: 5px;
 }
 
 .bg2 p {
@@ -207,7 +208,6 @@ section ul {
     padding-left: 20px;
     padding-bottom: 10px;
     list-style: inside;
-
 }
 
 .bg2 ul {
@@ -255,7 +255,7 @@ div#foto1 figcaption {
 
 div#nome {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 }
 
 div#nome h1 {
@@ -263,6 +263,10 @@ div#nome h1 {
 }
 
 div#nome h2 {
+    font-size: 1em;
+}
+
+div#nome h3 {
     font-size: 0.9em;
 }
 
@@ -270,8 +274,9 @@ div#nome p {
     font-size: 0.7em;
 }
 
-article#rodape {
+div#rodape {
     font-size: 0.7em;
+    margin-left: 0px;
 }
 
 footer {
