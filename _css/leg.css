@@ -49,16 +49,6 @@ main {
     margin: auto;     
 }
 
-.corpo {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.bg2 {
-    flex-grow: 1;
-}    /*tentativa de ficar o rodape*/
-
 header {
     border-top: 1px solid var(--cor2);
     border-left: 1px solid var(--cor2);
@@ -124,179 +114,56 @@ header nav a:hover {
 
 section {
     background-color: white;
-    border-left: 1px solid var(--cor1);
-    border-right: 1px solid var(--cor1);
+    border: 1px solid var(--cor1);
     color: #3b3535;
     padding: 5px;
 }
 
-.bg2 h1 {
-    font-size: 1em;
-    text-align: center; 
-    padding-top: 5px;
-    /*padding-bottom: 5px;*/
+.bg2  ul {
+    padding: 20px;
 }
 
-.bg2 h2 {
-    font-size: 1em;
-    font-weight: bold;
-    text-align: justify;
-    padding-top: 5px;
-    color: #ffaf3e;
-    padding-left: 10px;
-    margin-top: 10px;
+.bg2 li {
+    list-style-type: none;
 }
 
-.bg2 h3 {
-    font-size: .95em;
-    font-weight: bold;
-    text-align: justify;
-    padding: 5px 10px;
-}
-
-.bg2 ul {
-    font-size: 0.85em;
-    padding-top: 10px;
-    padding-left: 25px;
-}
-
-.bg2 p {
-    text-align: justify;
-    font-size: .9em;
-    padding: 0px 10px;
-    line-height: 1.8em;
-}
-
-section a {
-    color: #3b3535;
+.bg2 li a{
+    font-size: 0.8em;
+    color: black;
     font-weight: bold;
     text-decoration: none;
+    padding-left: 10px;
 }
 
-section a:hover {
+.bg2 li a:hover {
     color: var(--cor1);
     font-weight: bold;
     text-decoration: underline;
 }
 
-img#foto {
-    width: 40%;
-    padding: 0px 10px;
-    float: left;
-}
-
-img#presidente {
-    width: 35%;
-    padding: 10px;
-    float: left;
-}
-
-img#acao {
-    width: 95%;
-    margin: auto;
-    padding: 10px 9px;
-}
-
-div#enfase p {
-    font-size: .7em;
-    line-height: 1.5em;
-    text-align: justify;
-    padding-top: 5px;
-}
-
-article {
-    background-color: rgba(223, 222, 222, 0.5);
-    border: 1px solid rgba(223, 222, 222, 0.5);
-    margin: 5px;
-    border-radius: 10px;
-}
-
-.bg2 article h2 {
+.bg2 h1 {
     font-size: 1em;
-    text-align: center;
-    color: #3b3535b0;
-    padding-top: 5px;
-}
-
-.bg2 article h3 {
-    font-size: 2em;
     font-weight: bold;
-    color: #d51668;
-    text-align: center;
-    padding: 10px;
-}
-
-.bg2 article p {
-    font-size: .9em;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-article#origem {
-    background-color: white;
-}
-
-article#origem  h1 {
-    font-size: 1em;
-    text-align: center;
-    padding: 10px;
-}
-
-article#origem  h2 {
-    font-size: 1em;
-    color: var(--cor4);
-    text-align: left;
-    padding: 10px 0px 0px 10px;
-}
-
-article#origem  p {
-    font-size: .9em;
-    text-align: justify;
-    padding: 0px 10px 10px 10px;
-}
-
-.bg2 table {
-    width: 95%;
-    margin: auto;
-    border-collapse: collapse;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.bg2 table th {
-    border: 1px solid #3155a4;
-    background-color: #2172c3;
-    color: white;
-    font-size: 0.8em;
-    text-align: center;
-}
-
-.bg2 table td {
-    border: 1px solid #3155a4;
     color: #3155a4;
-    font-size: 0.8em;
+    padding: 5px;
     text-align: left;
-    padding-left: 10px;
 }
 
-table.honorario {
-    max-width: 350px;
+.bg2 h2 {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    text-align: left;
 }
 
-table.honorario th {
-    border: 1px solid white;
-    font-size: 1em;
-}
-
-table.honorario td {
-    border: 1px solid white;
-    font-size: 1em;    
-}
-
-table.honorario img {
-    width: 80px;
-    margin: auto;
-    padding-bottom: 10px;
+.bg2 p{
+    font-size: 0.8em;
+    font-weight: 1em;
+    color: rgb(65, 64, 64);
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: justify;
 }
 
 footer {
