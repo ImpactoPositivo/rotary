@@ -166,6 +166,14 @@ section {
     text-align: justify;
 }
 
+.artigo17 li {
+    font-size: 0.8em;
+    font-weight: 1em;
+    padding-left: 10px;
+    margin-left: 25px;
+    list-style:decimal
+}
+
 footer {
     background-color: #2172c3;
     font-family: var(fonte4);
