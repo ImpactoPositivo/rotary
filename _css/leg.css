@@ -123,7 +123,7 @@ section {
     padding: 20px;
 }
 
-.bg2 li {
+.bg2 ul li {
     list-style-type: none;
 }
 
@@ -139,6 +139,17 @@ section {
     color: var(--cor1);
     font-weight: bold;
     text-decoration: underline;
+}
+
+.bg2 ol {
+    padding: 5px 0px 5px 30px;
+}
+
+.bg2 ol li {
+    list-style-type: lower-roman;
+    font-size: 0.8em;
+    color: black;
+    padding-left: 5px;
 }
 
 .bg2 h1 {
