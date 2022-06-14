@@ -123,7 +123,15 @@ section {
     padding: 20px;
 }
 
+.bg4  ul {
+    padding: 5px;
+}
+
 .bg2 ul li {
+    list-style-type: none;
+}
+
+.bg4 ul li {
     list-style-type: none;
 }
 
@@ -135,24 +143,38 @@ section {
     padding-left: 10px;
 }
 
+.bg4 li a{
+    font-size: 0.8em;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
 .bg2 li a:hover {
     color: var(--cor1);
     font-weight: bold;
     text-decoration: underline;
 }
 
-.bg2 ol {
+.bg4 li a:hover {
+    color: var(--cor1);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bg2,.bg4 ol {
     padding: 5px 0px 5px 30px;
 }
 
-.bg2 ol li {
+.bg2,.bg4 ol li {
     list-style-type: lower-roman;
     font-size: 0.8em;
     color: black;
     padding-left: 5px;
 }
 
-.bg2 h1 {
+.bg2,.bg4 h1 {
     font-size: 1em;
     font-weight: bold;
     color: #3155a4;
@@ -160,7 +182,7 @@ section {
     text-align: left;
 }
 
-.bg2 h2 {
+.bg2,.bg4 h2 {
     font-size: 0.8em;
     font-weight: bold;
     color: black;
@@ -168,7 +190,7 @@ section {
     text-align: left;
 }
 
-.bg2 p{
+.bg2,.bg4 p{
     font-size: 0.8em;
     font-weight: 1em;
     color: rgb(65, 64, 64);
