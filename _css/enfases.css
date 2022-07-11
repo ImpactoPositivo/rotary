@@ -204,6 +204,10 @@ div#enfase p {
     padding-top: 5px;
 }
 
+div#espaco {
+    padding-left: 88px;
+}
+
 article {
     background-color: rgba(223, 222, 222, 0.5);
     border: 1px solid rgba(223, 222, 222, 0.5);
