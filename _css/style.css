@@ -23,6 +23,9 @@
     --cor2: #2172c3;
     --cor3: #3155a4;
     --cor4: #ffaf3e;
+    --cor5: #d51668;
+    --cor6: #e02927;
+    --cor7: #54565a;
 
     --fonte1: 'Frutiger Light Condensed', cursive;
     --fonte2: 'Frutiger Bold', cursive;
@@ -59,8 +62,7 @@ main {
 }    
 
 header figure {
-    background-color: rgba(230, 230, 230, 0.3);
-    border: 1px solid var(--cor1);
+    background-color: #3155a4;
 }
 
 header img#logo {
@@ -69,7 +71,9 @@ header img#logo {
 }
 
 header div#cabecario {
-    background-color: #00a8e4;
+    background-color: #ffaf3e;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
     padding: 5px;
     color: var(cor3);
 }
@@ -87,7 +91,8 @@ header h2 {
 
 section {
     background-color: white;
-    border: 1px solid var(--cor1);
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
     color: #3b3535;
     padding: 5px;
 }
@@ -280,7 +285,9 @@ div#rodape {
 }
 
 footer {
-    background-color: #2172c3;
+    background-color: #3155a4;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
     font-family: var(fonte4);
     color: white;
     text-align: center;

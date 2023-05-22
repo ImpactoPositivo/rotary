@@ -23,6 +23,8 @@
     --cor2: #2172c3;
     --cor3: #3155a4;
     --cor4: #ffaf3e;
+    --cor5: #e02927;
+    --cor6: #54565a;
 
     --fonte1: 'Frutiger Light Condensed', cursive;
     --fonte2: 'Frutiger Bold', cursive;
@@ -49,8 +51,7 @@ main {
 }
 
 header figure {
-    background-color: white;
-    border: 1px solid #00a8e4;
+    background-color: #3155a4;
 }
 
 header img#logo {
@@ -59,7 +60,9 @@ header img#logo {
 }
 
 header div#cabecario {
-    background-color: #00a8e4;
+    background-color: #ffaf3e;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
     padding-top: 5px;
     padding-bottom: 20px;
     color: var(cor3);
@@ -76,7 +79,9 @@ header h2 {
 }
 
 section {
-    background-color: #00a8e4;
+    background-color: white;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
 }
 
 center img {
@@ -132,9 +137,9 @@ div#clique {
     }
 
 div#clique a {
-    background-color: #ffaf3e;
+    background-color: #e02927;
     border-radius: 15px;
-    color: #3155a4;
+    color: white;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -143,7 +148,7 @@ div#clique a {
 }
 
 div#clique a:hover {
-    background-color: white;
+    background-color: #3b3535;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -184,7 +189,9 @@ section#conteudo a:hover {
 }
 
 footer {
-    background-color: #2172c3;
+    background-color: #3155a4;
+    border-left: 1px solid #3155a4;
+    border-right: 1px solid #3155a4;
     font-family: var(--fonte4);
     color: white;
     text-align: center;
