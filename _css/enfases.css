@@ -24,8 +24,6 @@
     --cor3: #3155a4;
     --cor4: #ffaf3e;
     --cor5: #d51668;
-    --cor6: #e02927;
-    --cor7: #54565a;
 
     --fonte1: 'Frutiger Light Condensed', cursive;
     --fonte2: 'Frutiger Bold', cursive;
@@ -61,9 +59,13 @@ main {
     flex-grow: 1;
 }    /*tentativa de ficar o rodape*/
 
-
+header {
+    border-top: 1px solid var(--cor2);
+    border-left: 1px solid var(--cor2);
+    border-right: 1px solid var(--cor2);
+}
 header figure {
-    background-color: #3155a4;
+    background-color: rgba(230, 230, 230, 0.301);
 }
 
 header img#logo {
@@ -72,9 +74,7 @@ header img#logo {
 }
 
 header div#cabecario {
-    background-color: #ffaf3e;
-    border-left: 1px solid #3155a4;
-    border-right: 1px solid #3155a4;
+    background-color: #00a8e4;
     padding: 5px;
     color: var(cor3);
 }
@@ -124,8 +124,8 @@ header nav a:hover {
 
 section {
     background-color: white;
-    border-left: 1px solid #3155a4;
-    border-right: 1px solid #3155a4;
+    border-left: 1px solid var(--cor1);
+    border-right: 1px solid var(--cor1);
     color: #3b3535;
     padding: 5px;
 }
@@ -209,8 +209,10 @@ div#espaco {
 }
 
 article {
-    background-color: rgba(223, 222, 222, 0.5);    border-left: 1px solid #3155a4;
-    border-right: 1px solid #3155a4;
+    background-color: rgba(223, 222, 222, 0.5);
+    border: 1px solid rgba(223, 222, 222, 0.5);
+    margin: 5px;
+    border-radius: 10px;
 }
 
 .bg2 article h2 {
@@ -302,9 +304,7 @@ table.honorario img {
 }
 
 footer {
-    background-color: #3155a4;
-    border-left: 1px solid #3155a4;
-    border-right: 1px solid #3155a4;
+    background-color: #2172c3;
     font-family: var(fonte4);
     color: white;
     text-align: center;
